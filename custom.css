@@ -1,0 +1,940 @@
+:root {
+    --myblue: rgb(61, 136, 181);
+    --mygray: rgb(232, 239, 247);
+}
+.bg-mygray {
+    background-color: var(--mygray) !important;
+  }
+.btn-myblue {
+    color: #fff;
+    background-color: var(--myblue);
+    border-color: var(--myblue);
+}
+.btn-myblue:hover {
+    color: #fff;
+    background-color: var(--myblue);
+    border-color: var(--myblue);
+}
+.text-myblue {
+    color: var(--myblue) !important; 
+}
+.btn {
+    padding: 0.375rem 2rem;
+    border-radius: 0;
+    font-weight: 500;
+}
+.navbar-brand img {
+    margin-left: -35px;
+}
+.navbar-text {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 6.3rem;
+    font-size: 0.85em;
+    display: none;
+}
+.navbar-text i {
+    margin-right: 1rem;
+    font-size: 1.5em;
+    margin-top: 0.05rem;
+}
+#header .jumbotron {
+    background: transparent;
+}
+#header .jumbotron h1 {
+    font-size: 2.4em;
+}
+#header .jumbotron p {
+    font-weight: 600;
+    font-size: 0.7em;
+}
+#header .jumbotron img {
+    width: 90%;
+    margin-top: 0.8rem;
+}
+#header {
+    height: 400px;
+    overflow: hidden;
+    border-bottom: 2px solid var(--mygray);
+}
+#announcement {
+    border-bottom: 1px solid var(--mygray);
+}
+#announcement .jumbotron {
+    background: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+#announcement .jumbotron h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+    font-weight: 700;
+    padding: 0 1rem;
+}
+#announcement .jumbotron i {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+#announcement .jumbotron p {
+    padding: 0 1rem;
+    font-weight: 300;
+}
+#videoSection {
+    border-bottom: 1px solid var(--mygray);
+}
+#videoSection .jumbotron {
+    background: transparent;
+    padding-top: 1.5rem;
+    margin-bottom: 0rem;
+}
+#videoSection .jumbotron #div1 {
+    align-self: center;
+}
+#videoSection .jumbotron h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} 
+#videoSection .jumbotron img {
+    width: 90%;
+    height: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+} 
+#videoSection .jumbotron .flex-container {
+    display: flex;
+    flex-direction: column;
+}
+#videoSection .jumbotron .flex-container img {
+    width: 50px;
+    margin-bottom: 0rem;
+}
+#videoSection .jumbotron .flex-container h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.8rem 0rem;
+}
+#videoSection .jumbotron .flex-container p {
+    font-size: 0.8rem;
+    font-weight: 450;
+}
+#videoSection .jumbotron .flex-container .fas {
+    display: none;
+}
+#benefits {
+    border-bottom: 1px solid var(--mygray);
+}
+#benefits .jumbotron {
+    background: transparent;
+    padding: 1.3rem;
+    margin-bottom: 3rem;
+}
+#benefits .jumbotron .headline {
+    font-size: 2rem;
+    margin-top: 3.4rem;
+    margin-bottom: 4rem;
+} 
+#benefits .grid-item h3 {
+    font-size: 1.4rem;
+    font-weight: 650;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+#benefits .grid-item img {
+    display: none;
+    width: 6.5rem;
+    margin-bottom: 0rem;
+}
+#benefits .grid-item p {
+    font-size: 0.8rem;
+    font-weight: 550;
+    text-align: left;
+    margin-bottom: 0rem;
+}
+#benefits .grid-container i {
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+#features {
+    overflow: hidden;
+    width: 100vw;
+    font-size: 100vw;
+    border-bottom: 1px solid var(--mygray);
+}
+#features .jumbotron {
+    background: transparent;
+    padding: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+#features .container h1 {
+    margin-bottom: 5rem;
+}
+#features .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, [col] auto );
+    grid-template-rows: repeat(6, [row] auto );
+}
+#features .box {
+    display: grid;
+    grid-template-columns: repeat(3, [col] 3rem );
+    grid-template-rows: repeat(6, [row] auto );
+    padding-bottom: 1rem;
+}
+#features .boxA {
+    grid-column: 1/ span ;
+    grid-row: 1/ span ;
+    font-size: 0rem;
+}
+#features .boxA img {
+    width: 2rem;
+}
+#features .boxB {
+    text-align: left;
+    grid-column: 2/ span 2 ;
+    grid-row: 1 ;
+    font-size: 1.1rem;
+    font-weight: 650;
+    padding-top: 0.1em;
+}
+#features .boxC {
+    text-align: left;
+    grid-column: 2/ span 5 ;
+    grid-row: 2 ;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+#testimonials {
+    overflow: hidden;
+    width: 100vw;
+    border-bottom: 1px solid var(--mygray);
+}
+#testimonials .jumbotron {
+    background: transparent;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+#testimonials h1 {
+    margin-bottom: 4rem;
+}
+#testimonials #quote {
+    position: absolute;
+    display: none;
+    font-size: 4rem;
+}
+#testimonials .article {
+    float: left;
+    width: 70%;
+}
+#testimonials .article div {
+    font-style: italic;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+#testimonials .aside {
+    float: right;
+    width: 6rem;
+    padding-left: 0.5rem;
+}
+#testimonials .aside img {
+    position: relative;
+    display: block;
+    width: 6rem;
+    height: auto;
+}
+#testimonials .name {
+    text-align: right;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 600;
+    float: right;
+    width: 6rem;
+    margin-bottom: 0rem;
+    position: relative;
+    padding-left: 0.5rem;
+}
+#testimonials .ceo {
+    text-align: right;
+    font-style: normal;
+    font-size: 0.8rem;
+    float: right;
+    width: 6rem;
+    position: relative;
+    padding-left: 0.5rem;
+}
+#testimonials .icon {
+    float: right;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+#testimonials #left {
+    position: relative;
+    float: left;
+    font-size: 2.5rem;
+}
+#testimonials #right {
+    position: relative;
+    float: right;
+    font-size: 2.5rem;
+}
+#news {
+    overflow: hidden;
+    width: 100vw;
+    font-size: 100vw;
+    border-bottom: 1px solid var(--mygray);
+    padding: 0 2rem;
+}
+#news .jumbotron {
+    background: transparent;
+    padding: 1.3rem 0;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+#news h1 {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+#news .tech {
+    font-size: 1rem;
+}
+#news .tech p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+}
+#news .tech #techLogo {
+    width: 3rem;
+}
+#news .tech #techText {
+    width: 6rem;
+}
+#news .tech #techLorem {
+    margin-top: 2.5rem;
+}
+#news .york {
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+#news .york p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+}
+#news .york img {
+    background-color: transparent;
+    width: 12rem;
+    height: auto;
+}
+#news .mash {
+    margin-top: 4.8rem;
+    font-size: 1rem;
+}
+#news .mash #mashLorem {
+    margin-top: 1.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+}
+#news .mash #mashLogo {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+#plan {
+    overflow: hidden;
+    width: 100vw;
+    font-size: 100vw;
+    border-bottom: 1px solid var(--mygray);
+    padding: 0 2rem;
+}
+#plan .jumbotron {
+    font-size: 1rem;
+    background: transparent;
+    padding: 1.3rem 0;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+#plan .card {
+    border: 2px solid var(--myblue);
+    padding: 10px;
+    border-radius: 2px;
+    margin: 1rem 0;
+}
+#plan h1 {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+#plan #container {
+    text-align: center;
+}
+#plan #cardLeft #dollar {
+    position: relative;
+    left: -3.5em;
+    top: 3.35rem;
+    font-size:1.3rem;
+}
+#plan #cardLeft .card-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    position: relative;
+    top: -1rem;
+    left: 0rem;
+    margin-bottom: 1.4rem;
+}
+#plan #cardCenter {
+    color: var(--myblue);
+}
+#plan #cardCenter h6 {
+    position: relative;
+    top: -1.5rem;
+    color: var(--myblue);
+}
+#plan #cardCenter #dollar {
+    position: relative;
+    left: -4em;
+    top: 3.7rem;
+    font-size:1.3rem;
+    color: var(--myblue);
+}
+#plan #cardCenter .card-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    position: relative;
+    top: -2.4rem;
+    left: 0rem;
+    margin-bottom: 0rem;
+    color: var(--myblue);
+}
+#plan #cardCenter h7 {
+    font-size: 1rem;
+    position: relative;
+    top: -3.2rem;
+    left: 0rem;
+    color: var(--myblue);
+}
+#plan #cardCenter #icon {
+    color: var(--myblue);
+}
+#plan #cardCenter .card-text {
+    color: var(--myblue);
+}
+#plan #cardRight #dollar {
+    position: relative;
+    left: -3.5em;
+    top: 4.35rem;
+    font-size:1.3rem;
+}
+#plan #cardRight .card-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0.2rem;
+}
+#plan #cardRight h7 {
+    font-size: 1rem;
+    position: relative;
+    top: -1.2rem;
+    left: 0rem;
+}
+#plan #cardRight .card-body {
+    padding-top: 0;
+}
+#plan .card-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    position: relative;
+    left: 1rem;
+    margin-bottom: 2.5rem;
+}
+#plan #container2 {
+    margin-top: 0.6rem;
+    border-bottom: 1px solid var(--mygray);
+}
+#plan #icon {
+    float: left;
+    font-size: 2rem;
+}
+#plan .card-text {
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+#plan .btn {
+    width: 12.6rem;
+    margin-top: 3rem;
+    background-color: var(--myblue);
+}
+#getInTouch .jumbotron {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+#getInTouch #img1{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    overflow: hidden;
+}
+#getInTouch #img2{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    overflow: hidden;
+}
+#getInTouch #colCard {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+}
+#getInTouch .card-body {
+    padding-left: 2.5rem;
+}
+#getInTouch h5 {
+    font-size: 2.5rem;
+    margin-bottom: 0.4rem;
+}
+#getInTouch #text {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+#getInTouch .flex-container .fas {
+    position: relative;
+    float: left;
+    font-size: 1rem;
+    padding-right: 1rem;
+    top: 0.1em;
+}
+#getInTouch .flex-container #marker {
+    padding-right: 1.25rem;
+    margin-bottom: 1rem;
+}
+#getInTouch .flex-container .card-title {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+#wireLand {
+    background-color: var(--myblue);
+}
+#wireLand .d-flex {
+    display: flex;
+}
+#wireLand #parent {
+    padding: 3rem;
+}
+#wireLand #child {
+    margin: auto;
+    color: white;
+    font-size:1.5rem;
+}
+#wireLand .brand-border {
+    font-weight: 200;
+    border: 0.04em solid;
+    padding: 0 0.4rem;
+    position: relative;
+}
+#wireLand .brand-bold {
+    font-weight: 600;
+    margin-left: 0.1rem;
+}
+#wireLand .corner-box {
+    width: 0.20em;
+    height: 0.20em;
+    background-color: white;
+    position: absolute;
+}
+#wireLand .tl {
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+#wireLand .bl {
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+#wireLand .tr {
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+#wireLand .br {
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+}
+#wireLand #text {
+    width: 18rem;
+    margin: auto;
+    padding-bottom: 1.5rem;
+}
+#wireLand .inputDiv {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    left: 0rem;
+}
+#wireLand .inputDiv #emailInput {
+    height: 2.5rem;
+    padding-right: 5rem;
+    margin: auto;
+}
+#wireLand .inputDiv .btn {
+    font-size: 0.8em;
+    position: relative;
+    background-color: white;
+    color: var(--myblue);
+    border-radius: 3px; 
+}
+#wireLand .icons .fab {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+}
+#footer {
+    background-color: rgb(21, 86, 121);
+}
+#footer p {
+    font-weight: 350;
+    padding: 1rem;
+    margin: 0;
+}
+@media(min-width: 375px){
+    #plan .btn {
+        width: 13.6rem;
+    }
+}
+@media(min-width: 576px) {
+    #header {
+        height: 480px;
+    }
+    #testimonials .jumbotron {
+        margin-top: 0rem;
+    }
+}
+@media(min-width: 768px) {
+    #header .jumbotron img{
+        width: 90%;
+        margin-top: 3rem;
+    }
+    #header {
+        height: 600px;
+    }
+    #videoSection .jumbotron img {
+        width: 70%;
+    } 
+    #videoSection .jumbotron .flex-container {
+        flex-direction: row;
+    }
+    #videoSection .jumbotron .flex-container .fas {
+        display: initial;
+        margin-top: 2.2rem;
+        padding: 0px 20px;
+    }
+    #benefits .grid-container i {
+        display: none;
+    }
+    #benefits .grid-container {
+        display: grid;
+        grid-template-columns: calc(50% - 3.5rem) 7rem auto;
+        align-items: center;
+    }  
+    #benefits .grid-item #h3 {
+        display: inline-block;
+    }    
+    #benefits .grid-item #img {
+        display: inline-block;
+    }   
+    #benefits .grid-item #p {
+        display: inline-block;
+    }    
+    #benefits .grid-item h3 {
+        text-align: right;
+        padding-right: 1rem;
+        margin-left: 1.5rem;
+        margin-bottom: 3.6rem;
+    }   
+    #benefits .grid-item img {
+        display: initial;
+        margin-bottom: 3.6rem;
+    } 
+    #benefits .grid-item p {
+        padding-left: 1rem;
+        margin-right: 1.5rem;
+        margin-bottom: 3.6rem;
+    }
+    #features .wrapper {
+        grid-template-columns: repeat(2, [col] 20rem );
+        grid-template-rows: repeat(3, [row] auto );
+    }
+    #features .box {
+        grid-template-columns: repeat(4, [col] 5rem );
+        grid-template-rows: repeat(2, [row] auto );
+    }    
+    #features .boxA {
+        grid-row: 1/ span 2;
+    }
+    #features .boxA img {
+        width: 3rem;
+    }
+    #features .boxB {
+        grid-column: 2/ 4 ;
+        padding: 0.6em 0;
+        margin-top: 0rem;
+    }
+    #features .boxC {
+        grid-column: 2/ span 3 ;
+    }
+    #testimonials {
+        border-bottom: 1px solid var(--mygray);
+        padding: 0 2rem;
+    }
+    #testimonials .jumbotron {
+        padding: 1.3rem;
+        margin-top: 3rem;
+    }
+    #testimonials h1 {
+        margin-bottom: 6rem;
+    }
+    #testimonials #quote {
+        display: block;
+    }
+    #testimonials .article {
+        width: 65%;
+        margin-top: 4rem;
+    }
+    #testimonials .article div {
+        font-size: 1.1rem;
+    }
+    #testimonials .aside {
+        float: left;
+        width: 30%;
+        margin-top: 4rem;
+        padding-left: 2.5rem;
+    }
+    #testimonials .aside img {
+        width: 15rem;
+        height: 16rem;
+    }
+    #testimonials .layout:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    #testimonials .name {
+        text-align: left;
+        font-size: 1.4rem;
+        float: left;
+        width: 70%;
+        padding-left: 0rem;
+        top: -3rem;
+    }
+    #testimonials .ceo {
+        text-align: left;
+        float: left;
+        width: 70%;
+        padding-left: 0rem;
+        top: -3rem;
+    }
+    #testimonials .icon {
+        float: left;
+        width: 30%;
+        margin-bottom: 0;
+    }
+    #testimonials #left {
+        left: -2em;
+        top: -5rem;
+    }
+    #testimonials #right {
+        float: left;
+        left: -2.1em;
+        top: -5rem;
+    }
+    #news .tech {
+        float: left;
+        width:33%;
+        padding: 0 1rem;
+    }
+    #news .york {
+        position: relative;
+        float: left;
+        width: 34%;
+        top: -2.51rem;
+        padding: 0 1rem;
+        margin-bottom: 3rem;
+        margin-top: 0;
+    }
+    #news .mash {
+        position: relative;
+        float: left;
+        width: 33%;
+        top: -0.7rem;
+        padding: 0 1rem;
+        margin-top: 0;
+    }
+    #news .mash #mashLorem {
+        margin-top: 2.1rem;
+    }
+    #plan .card {
+        margin: 0;
+    }
+    #plan #cardLeft {
+        position: relative;
+        top: 1rem;
+        left: 0.2rem;
+    }
+    #plan #cardLeft #dollar {
+        left: -2.8em;
+    }
+    #plan #cardLeft .card-title {
+        left: 1rem;
+    }
+    #plan #cardLeft .btn {
+        margin-top: 4.5rem;
+    }
+    #plan #cardCenter {
+        background-color:var(--myblue);
+    }
+    #plan #cardCenter h6 {
+        color: inherit;
+    }
+    #plan #cardCenter #dollar {
+        color: inherit;
+    }
+    #plan #cardCenter .card-title {
+        color: inherit;
+    }
+    #plan #cardCenter h7 {
+        color: inherit;
+    }
+    #plan #cardCenter #icon {
+        color: inherit;
+    }
+    #plan #cardCenter .card-text {
+        color: inherit;
+    }
+    #plan #cardCenter .btn {
+        color: var(--myblue);
+        background-color: white;
+        margin-bottom: 1rem;
+    }
+    #plan #cardRight {
+        position: relative;
+        top: 1rem;
+        left: -0.15rem;
+    }
+    #plan #cardRight .btn {
+        margin-top: 4.75rem;
+    }
+    #plan #colCard {
+        padding: 0px 0px;
+    }
+    #plan .btn {
+        width: 10.5rem;
+    }
+    #getInTouch #colCard {
+        width: 55%;
+        left: 50%;
+        padding: 2rem;
+    }
+    #getInTouch h5 {
+        margin: 1rem 0;
+    }
+    #getInTouch #text {
+        margin-bottom: 2rem;
+    }
+    #getInTouch .flex-container #marker {
+        margin-bottom: 2rem;
+    }
+    #wireLand #text {
+        width: 40rem;
+    }
+    #wireLand .inputDiv {
+        padding-bottom: 0rem;
+    }
+    #wireLand .inputDiv #emailInput {
+        padding-right: 20rem;
+    }
+    #wireLand .inputDiv .btn {
+        top: -3.3rem;
+        left: 11.85rem;
+        background-color: var(--myblue);
+        color: white;
+        border-radius: 4px; 
+    }
+}
+@media(min-width: 949px) {
+    #getInTouch #img1 {
+        display: none;
+    }
+}
+@media(min-width: 992px) {
+    .navbar-text {
+        display: flex;
+    }
+    #header .jumbotron h1 {
+        font-size: 4em;
+    }    
+    #header .jumbotron p {
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    #header {
+        height: 750px;
+    }
+    #announcement .jumbotron .container{
+        display: flex;
+    }
+    #announcement .jumbotron i {
+        display: none;
+    }
+    #announcement .jumbotron h1 {
+        flex: 3;
+        text-align: right;
+        font-size: 2rem;
+    }
+    #announcement .jumbotron p {
+        flex: 6;
+        text-align: left;
+        margin-top: 0.3rem;
+    }
+    #testimonials .article {
+        width: calc(100%-15rem);
+    }
+    #testimonials .aside {
+        width: 15rem;
+        padding-left: 3rem;
+    }
+    #getInTouch #colCard {
+        width: 40.9%;
+    }
+}
+@media(min-width: 1024px) {
+    #features {
+        background-image: url("images/laptopBG.png");
+        background-repeat: no-repeat;
+        background-position: 63vw 10rem;
+        background-size: 45rem;
+    }
+    #testimonials .aside {
+        padding-left: 3.5rem;
+    }
+    #plan .btn {
+        width: 16.2rem;
+    }
+}
+@media(min-width: 1200px) {
+    #header {
+        height: 850px;
+    }
+    #testimonials .aside {
+        padding-left: 4rem;
+    }
+    #getInTouch #colCard {
+        width: 34.4%;
+    }
+    #plan .btn {
+        width: 19.9rem;
+    }
+}
